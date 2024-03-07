@@ -1,0 +1,80 @@
+body{
+   background-image: url("https://wallpapercave.com/wp/wp7367659.jpg  ");
+   background-repeat:  no-repeat;
+   background-size: cover; 
+}
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: rgba(218, 209, 209, 0.5); /* Adjust the alpha value as per your preference */
+    box-shadow: 10px 10px 10px rgba(177, 175, 175, 0.1); /* Adjust the alpha value as per your preference */
+}
+
+
+.login-container h1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
