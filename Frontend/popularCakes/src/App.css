@@ -1,48 +1,42 @@
-/* App.css */
-
-/* Styles for the popup */
-.popup {
-  display: none;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.popup.active {
-  display: block;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-/* Styles for the form inputs */
-.popup input {
-  margin-bottom: 10px;
-  padding: 8px;
-  width: 100%;
-  box-sizing: border-box;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.popup button {
-  padding: 8px 16px;
-  margin-right: 10px;
-  cursor: pointer;
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
-/* Styles for the cake items */
-.cake-item {
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-  padding: 10px;
+.card {
+  padding: 2em;
 }
 
-.cake-item h2 {
-  margin-bottom: 5px;
-}
-
-.cake-item p {
-  margin: 0;
+.read-the-docs {
+  color: #888;
 }
